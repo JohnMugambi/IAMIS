@@ -10,7 +10,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="nav navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Michael</a>
+                    <a class="nav-link" href="#">
+                    <span class="icon"><i class="fas fa-user" style="width: 15%;"></i></span>
+                    <span>Michael</span>
+                    </a>
                 </li>
             </ul>
         </div>
