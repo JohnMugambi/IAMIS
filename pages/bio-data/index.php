@@ -43,9 +43,9 @@ include_once (ROOT_PATH.'/includes/header.php');
                         </div>
 
                         <!-- EMERGENCY CONATCT -->
-                        <h4>Emergency Contact</h4>
                         <div class="mt-3">
                             <div class="container">
+                            <h4>Emergency Contact</h4>
                                 <div class="row">
                                     <div class="mb-3 col">
                                         <label for="emergencyName" class="form-label">Name</label>
@@ -66,14 +66,14 @@ include_once (ROOT_PATH.'/includes/header.php');
                         </div>
 
                         <!-- PROFESSIONAL SUMMARY -->
-                        <h4>Professional Summary</h4>
                         <div class="mb-3 container">
+                        <h4>Professional Summary</h4>
                             <textarea class="form-control" id="professionalSummary" rows="5"></textarea>
                         </div>
                         
                         <!-- WORK HISTORY -->
-                        <h4>Work History</h4>
                         <div class="container">
+                        <h4>Work History</h4>
                             <div class="row">
                                 <div class="mb-3 col">
                                 <label for="jobTitle" class="form-label">Job Title</label>
@@ -93,8 +93,8 @@ include_once (ROOT_PATH.'/includes/header.php');
                         </div>
 
                         <!-- EDUCATION -->
-                        <h4>Education</h4>
                         <div class="container">
+                        <h4>Education</h4>
                             <div class="row">
                                 <div class="mb-3 col">
                                 <label for="educationLevel" class="form-label">Level of Education</label>
@@ -114,8 +114,8 @@ include_once (ROOT_PATH.'/includes/header.php');
                         </div>
 
                         <!-- SKILLS -->
-                        <h4>Skills</h4>
                         <div class="container">
+                        <h4>Skills</h4>
                             <div class="row">
                                 <p class="col">Lorem ipsum</p>
                                 <p class="col">Lorem ipsum</p>
@@ -127,7 +127,9 @@ include_once (ROOT_PATH.'/includes/header.php');
                         </div>
 
                         
+                    <div class="container text-right mb-3">
                     <button type="submit" class="btn btn-primary">Edit Bio-data</button>
+                    </div>
                     </form>
                     </section>
                 </div>
