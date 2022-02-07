@@ -16,10 +16,18 @@
             </a>
         </li>
         <li>
-            <a href="<?php echo BASE_URL . "/pages/profile/index.php" ?>">
+            <a href="#profileSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
                 <span class="icon"><i class="fas fa-user" style="width: 10%;"></i></span>
                 <span>Profile</span>
             </a>
+            <ul class="collapse list-unstyled" id="profileSubmenu">
+                        <li>
+                            <a href="<?php echo BASE_URL . "/pages/profile"?>">Profile</a>
+                        </li>
+                        <li>
+                            <a href="<?php echo BASE_URL . "/pages/bio-data"?>">Bio-data</a>
+                        </li>
+                    </ul>
         </li>
         <li>
             <a href="<?php echo BASE_URL . "/pages/applications/index.php" ?>">

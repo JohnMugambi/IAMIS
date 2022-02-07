@@ -1,4 +1,8 @@
-<nav class="navbar navbar-expand-lg navbar-light navbar-bg-blue">
+<nav class="navbar navbar-expand-lg navbar-light navbar-bg-blue" 
+    style="
+        position: sticky;
+        top: 0;
+">
     <div class="container-fluid">
         <button type="button" id="sidebarCollapse" class="btn btn-burger">
             <i class="fas fa-bars"></i>

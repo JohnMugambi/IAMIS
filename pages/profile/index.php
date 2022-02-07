@@ -20,7 +20,7 @@ include_once (ROOT_PATH.'/includes/header.php');
                 ?>
                 <div id="main-content">
                     <div class="page-title">
-                        <h2>Profile</h2>
+                       <h3>Profile</h3>
                     </div>
                     <section>
                        
