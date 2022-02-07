@@ -1,6 +1,6 @@
 <?php
 include '../../config.php';
-include_once (ROOT_PATH.'/includes/header.php');
+include_once(ROOT_PATH . '/includes/header.php');
 ?>
 <title>Applications</title>
 </head>
@@ -10,21 +10,24 @@ include_once (ROOT_PATH.'/includes/header.php');
         <div class="wrapper">
             <!-- Sidebar  -->
             <?php
-            include (ROOT_PATH.'/includes/sidebar-nav.php')
+            include(ROOT_PATH . '/includes/sidebar-nav.php')
             ?>
 
             <!-- Page Content  -->
             <div id="content">
                 <?php
-                include (ROOT_PATH.'/includes/navbar.php')
+                include(ROOT_PATH . '/includes/navbar.php')
                 ?>
                 <div id="main-content">
+                    <div class="page-title">
+                        <h2>Applications</h2>
+                    </div>
                     <section>
-                        Application page
+
                     </section>
                 </div>
                 <?php
-                include (ROOT_PATH.'/includes/footer.php')
+                include(ROOT_PATH . '/includes/footer.php')
                 ?>
             </div>
 

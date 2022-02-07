@@ -19,8 +19,11 @@ include_once (ROOT_PATH.'/includes/header.php');
                 include (ROOT_PATH.'/includes/navbar.php')
                 ?>
                 <div id="main-content">
+                    <div class="page-title">
+                        <h2>Saved</h2>
+                    </div>
                     <section>
-                        Saved page
+
                     </section>
                 </div>
                 <?php

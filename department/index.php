@@ -1,6 +1,6 @@
 <?php
-include '../../config.php';
-include_once (ROOT_PATH.'/includes/header.php');
+include './config.php';
+include (ROOT_PATH.'/includes/header.php')
 ?>
 <title>Profile</title>
 </head>
@@ -12,18 +12,14 @@ include_once (ROOT_PATH.'/includes/header.php');
             <?php
             include (ROOT_PATH.'/includes/sidebar-nav.php')
             ?>
-
             <!-- Page Content  -->
             <div id="content">
                 <?php
                 include (ROOT_PATH.'/includes/navbar.php')
                 ?>
                 <div id="main-content">
-                    <div class="page-title">
-                        <h2>Profile</h2>
-                    </div>
                     <section>
-                       
+                        Home main page
                     </section>
                 </div>
                 <?php
@@ -32,9 +28,8 @@ include_once (ROOT_PATH.'/includes/header.php');
             </div>
 
         </div>
-    </main>
 
-    <script src="js/scripsts.js" async defer></script>
+    </main>
 </body>
 
 </html>
