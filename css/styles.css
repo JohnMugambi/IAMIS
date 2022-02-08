@@ -133,7 +133,7 @@ a:focus {
 #sidebar ul li.active > a,
 a[aria-expanded="true"] {
   color: #fff;
-  background: var(--primary-color);;
+  background-color: var(--primary-color);
 }
 
 a[data-toggle="collapse"] {
@@ -151,7 +151,7 @@ a[data-toggle="collapse"] {
 ul ul a {
   font-size: 0.9em !important;
   padding-left: 30px !important;
-  background: var(--primary-color);;
+  background: var(--primary-color);
 }
 
 ul.CTAs {
@@ -168,7 +168,7 @@ ul.CTAs a {
 
 a.download {
   background: #fff;
-  color: var(--primary-color);;
+  color: var(--primary-color);
 }
 
 a.article,

@@ -66,7 +66,6 @@ include_once (ROOT_PATH.'/includes/header.php');
         </div>
     </main>
 
-    <script src="js/scripts.js" async defer></script>
 </body>
 
 </html>

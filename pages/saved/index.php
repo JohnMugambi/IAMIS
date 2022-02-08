@@ -34,7 +34,6 @@ include_once (ROOT_PATH.'/includes/header.php');
         </div>
     </main>
 
-    <script src="js/scripsts.js" async defer></script>
 </body>
 
 </html>

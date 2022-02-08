@@ -134,7 +134,6 @@ include_once (ROOT_PATH.'/includes/header.php');
         </div>
     </main>
 
-    <script src="<?php echo JS_DIR ?>/scripts.js"> async defer></script>
 </body>
 
 </html>
