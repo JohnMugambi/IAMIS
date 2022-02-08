@@ -25,7 +25,7 @@
                             <a href="<?php echo BASE_URL . "/pages/profile"?>">View Profile</a>
                         </li>
                         <li>
-                            <a href="<?php echo BASE_URL . "/pages/bio-data"?>">Bio-data</a>
+                            <a href="<?php echo BASE_URL . "/pages/bio-data"?>">View Bio-data</a>
                         </li>
                     </ul>
         </li>

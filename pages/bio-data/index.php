@@ -28,17 +28,17 @@ include_once (ROOT_PATH.'/includes/header.php');
                         <div class="container">
                             <div class="mb-3">
                                 <label for="dateOfBirth" class="form-label">Date Of Birth</label>
-                                <input type="date" class="form-control" id="dateOfBirth">
+                                <input type="date" class="form-control" id="dateOfBirth" disabled>
                             </div>
 
                             <div class="mb-3">
                                 <label for="address" class="form-label">Address</label>
-                                <input type="text" class="form-control" id="address">
+                                <input type="text" class="form-control" id="address" disabled>
                             </div>
 
                             <div class="mb-3">
                                 <label for="phone" class="form-label">Phone Number</label>
-                                <input type="number" class="form-control" id="phone">
+                                <input type="number" class="form-control" id="phone" disabled>
                             </div>
                         </div>
 
@@ -49,26 +49,26 @@ include_once (ROOT_PATH.'/includes/header.php');
                                 <div class="row">
                                     <div class="mb-3 col">
                                         <label for="emergencyName" class="form-label">Name</label>
-                                        <input type="text" class="form-control" id="emergencyName">
+                                        <input type="text" class="form-control" id="emergencyName" disabled>
                                     </div> 
 
                                     <div class="mb-3 col">
                                         <label for="relationship" class="form-label">Relationship</label>
-                                        <input type="text" class="form-control" id="relationship">
+                                        <input type="text" class="form-control" id="relationship" disabled>
                                     </div> 
                                 </div>
                             </div>
 
                             <div class="mb-3 container">
                                 <label for="emergencyPhone" class="form-label">Phone Number</label>
-                                <input type="number" class="form-control" id="emergencyPhone">
+                                <input type="number" class="form-control" id="emergencyPhone" disabled>
                             </div>
                         </div>
 
                         <!-- PROFESSIONAL SUMMARY -->
                         <div class="mb-3 container">
                         <h4>Professional Summary</h4>
-                            <textarea class="form-control" id="professionalSummary" rows="5"></textarea>
+                            <textarea class="form-control" id="professionalSummary" rows="5"  disabled></textarea>
                         </div>
                         
                         <!-- WORK HISTORY -->
@@ -77,17 +77,17 @@ include_once (ROOT_PATH.'/includes/header.php');
                             <div class="row">
                                 <div class="mb-3 col">
                                 <label for="jobTitle" class="form-label">Job Title</label>
-                                <input type="text" class="form-control" id="jobTitle">
+                                <input type="text" class="form-control" id="jobTitle" disabled>
                             </div>
 
                             <div class="mb-3 col">
                                 <label for="startDate" class="form-label">Start Date</label>
-                                <input type="date" class="form-control" id="startDate">
+                                <input type="date" class="form-control" id="startDate" disabled>
                             </div>
 
                             <div class="mb-3 col">
                                 <label for="endDate" class="form-label">EndDate</label>
-                                <input type="date" class="form-control" id="endDate">
+                                <input type="date" class="form-control" id="endDate" disabled>
                             </div>
                             </div>
                         </div>
@@ -98,17 +98,17 @@ include_once (ROOT_PATH.'/includes/header.php');
                             <div class="row">
                                 <div class="mb-3 col">
                                 <label for="educationLevel" class="form-label">Level of Education</label>
-                                <input type="text" class="form-control" id="educationLevel">
+                                <input type="text" class="form-control" id="educationLevel" disabled>
                             </div>
 
                             <div class="mb-3 col">
                                 <label for="edstartDate" class="form-label">From</label>
-                                <input type="date" class="form-control" id="edstartDate">
+                                <input type="date" class="form-control" id="edstartDate" disabled>
                             </div>
 
                             <div class="mb-3 col">
                                 <label for="edendDate" class="form-label">To</label>
-                                <input type="date" class="form-control" id="edendDate">
+                                <input type="date" class="form-control" id="edendDate" disabled>
                             </div>
                             </div>
                         </div>
@@ -128,7 +128,7 @@ include_once (ROOT_PATH.'/includes/header.php');
 
                         
                     <div class="container text-right mb-3">
-                    <button type="submit" class="btn btn-primary">Edit Bio-data</button>
+                    <a href="<?php echo BASE_URL . "/pages/bio-data/edit-bio-data.php"?>" class="btn btn-primary">Edit Bio-Data</a>
                     </div>
                     </form>
                     </section>
