@@ -150,13 +150,13 @@ header {
   padding-left: 10px;
   border-left: 1px solid var(--light-grey-border);
 }
-.college-filter label{
-    min-width: 15vw;
-    margin-bottom: 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+.college-filter label {
+  min-width: 15vw;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 .college-filter select {
   border: none;
@@ -338,6 +338,92 @@ SEARCH FILTERS
   background-color: var(--primary-color);
   color: var(--font-white);
 }
+
+/*-------------------
+modal styling
+-------------------*/
+
+.modal-custom {
+  width: 100vw;
+  color: red;
+  border: 1px solid red;
+  padding: 10px;
+  margin: 10vh 10px;
+}
+.modal-content {
+  width: 100%;
+  padding: 0 20px;
+}
+.mod-header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 10px 10px 0 0;
+}
+
+.mod-header .mod-close-btn {
+  margin: 0 10px 0 0;
+  padding: 0;
+  height: 30px;
+  width: 30px;
+  font-weight: 700;
+  cursor: pointer;
+  background-color: rgba(255, 57, 57, 0.78);
+}
+.mod-other-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+  margin: 10px 10px;
+  border-bottom: 1px solid var(--light-grey-border);
+}
+.mod-other-details > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.mod-other-details h4 {
+  margin: 0;
+  padding: 0;
+}
+.mod-other-details img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+.mod-other-details p {
+  font-weight: 400;
+  color: var(--font-dark);
+  font-size: 0.9em;
+}
+.mod-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+  padding: 0 10px;
+}
+.mod-content p {
+  color: var(--font-dark);
+  font-weight: 400;
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+.mod-apply {
+  display: flex;
+  padding: 20px 40px;
+  justify-content: flex-end;
+}
+.mod-apply button{
+  justify-content: flex-end;
+  margin: 0;
+  width: 100px;
+}
 /*-------------------
 footer styling
 -------------------*/
@@ -346,3 +432,5 @@ footer {
   color: var(--font-white);
   background-color: var(--dark-grey-background);
 }
+
+
