@@ -370,6 +370,8 @@ modal styling
   width: 30px;
   font-weight: 700;
   cursor: pointer;
+  border: none;
+  border-radius: 4px;
   background-color: rgba(255, 57, 57, 0.78);
 }
 .mod-other-details {
@@ -423,6 +425,8 @@ modal styling
   justify-content: flex-end;
   margin: 0;
   width: 100px;
+  color: var(--font-white);
+  background-color: var(--primary-color) !important;
 }
 /*-------------------
 footer styling
