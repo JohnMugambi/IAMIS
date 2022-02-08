@@ -22,7 +22,7 @@
             </a>
             <ul class="collapse list-unstyled" id="profileSubmenu">
                         <li>
-                            <a href="<?php echo BASE_URL . "/pages/profile"?>">Profile</a>
+                            <a href="<?php echo BASE_URL . "/pages/profile"?>">View Profile</a>
                         </li>
                         <li>
                             <a href="<?php echo BASE_URL . "/pages/bio-data"?>">Bio-data</a>
