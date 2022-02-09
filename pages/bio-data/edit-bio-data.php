@@ -122,7 +122,8 @@ include_once (ROOT_PATH.'/includes/header.php');
 
                             
                         <div class="container text-right mb-3">
-                        <button class="btn btn-primary" type="submit">Update</button>                        </div>
+                        <button class="btn btn-primary" type="submit">Update</button>                        
+                        </div>
                         </form>
                     </section>
                 </div>
