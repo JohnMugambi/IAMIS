@@ -4,6 +4,11 @@
   --primary-color: #0d7000;
   --light-grey-border: rgb(226, 226, 226);
   --font-white: white;
+  --bacground-gray: #f8f7f7;
+  --background-white: white;
+  --font-dark: rgb(41, 41, 41);
+  --light-dark: rgb(105, 105, 105);
+  --dark-grey-background: #313131;
 }
 * {
   margin: 0;
@@ -13,7 +18,7 @@
 }
 
 body {
-  background: #fafafa;
+  background: var(--bacground-gray);
 }
 
 p {

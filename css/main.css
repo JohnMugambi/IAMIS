@@ -60,18 +60,22 @@ main {
   margin-right: 0.5vw;
 }
 
-#main-page-nav .nav-buttons button {
+#main-page-nav .nav-buttons a {
   background-color: transparent;
   border: none;
   margin: 0px 10px;
   font-size: 1.2rem;
   color: var(--font-white);
   cursor: pointer;
+  text-decoration: none;
+}
+#main-page-nav .nav-buttons a:hover {
+  color: var(--light-grey-border);
 }
 .nav-buttons .login-button {
   border: 1px solid rgba(176, 176, 176, 0.718) !important;
   width: 100px;
-  padding: 5px 0;
+  padding: 5px 20px;
   border-radius: 10px;
 }
 header {

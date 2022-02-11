@@ -1,5 +1,5 @@
 <?php
-include '../../config.php';
+include '../config.php';
 include_once(ROOT_PATH . '/includes/header.php');
 ?>
 <title>Page name</title>
@@ -34,7 +34,6 @@ include_once(ROOT_PATH . '/includes/header.php');
         </div>
     </main>
 
-    <script src="js/scripsts.js" async defer></script>
 </body>
 
 </html>

@@ -1,6 +1,7 @@
 <?php
 include './config.php';
-include(ROOT_PATH . '/includes/header.php')
+include(ROOT_PATH . '/includes/header.php');
+include "./controllers/application.php";
 ?>
 <link rel="stylesheet" href="<?php echo BASE_URL ?>/css/main.css">
 <title>Home</title>
@@ -23,9 +24,8 @@ include(ROOT_PATH . '/includes/header.php')
                     </span>
                 </div>
                 <div class="nav-buttons">
-                    <button>Register</button>
-                    <button class="login-button">Sign In</button>
-
+                    <a href="<?php echo BASE_URL . "/register.php" ?>">Register</a>
+                    <a href="<?php echo BASE_URL . "/login.php" ?>" class="login-button">Sign In</a>
                 </div>
             </nav>
         </div>
@@ -112,8 +112,6 @@ include(ROOT_PATH . '/includes/header.php')
                                         <div class="post-action">
                                             <button type="button" data-toggle="modal" data-target="#myModal">View</button>
                                             <p class="sm-text">01 - jan-2020</p>
-
-
                                         </div>
                                     </div>
                                 <?php endfor; ?>
@@ -148,7 +146,7 @@ include(ROOT_PATH . '/includes/header.php')
                                                 <p>Requirements</p>
                                                 <br><br>
                                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                                    Cum fuga molestiae, alias nostrum expedita hic perspiciatis
+                                                    Fuga molestiae, alias nostrum expedita hic perspiciatis
                                                     est a pariatur fugit ad in aliquid itaque! Illum magnam id exercitationem praesentium ipsam!</p>
                                                 <br>
                                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, quae animi
@@ -176,8 +174,11 @@ include(ROOT_PATH . '/includes/header.php')
 
                                                 Please apply in English saving your CV and Motivation letter as a single document indicating the area you are interested in and the location. To apply, please visit our website at https://kenya..net/. The deadline for receiving applications is 15th February 2022. Only shortlisted applicants will be considered for interview.<br>
                                             </div>
+                                            
                                             <div class="mod-apply">
-                                                <button type="button" class="btn btn-default" data-dismiss="modal">Apply</button>
+                                                <form method="POST" action="application.php">
+                                                    <a href="<?php echo BASE_URL . "/pages/applications/applications.php" ?>" class="btn btn-primary" style="background:#0d7000;" >Apply</a>
+                                                </form>
                                             </div>
                                         </div>
                                     </div>
