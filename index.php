@@ -44,7 +44,15 @@ include "./controllers/application.php";
                         <label class="filter-dropdown" for="filter-drop">
                             <select class="" id="styledSelect1" name="options">
                                 <option value="">
-                                    Select College
+                                    <div style="
+                                        display: flex;
+                                        align-items:center;
+                                        justify-content:space-between;
+                                        width: 100%;
+                                    ">
+                                        <span>Select college</span>
+                                        <span>v</span>
+                                    </div>
                                 </option>
                                 <option value="1">
                                     Option 1

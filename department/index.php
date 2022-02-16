@@ -1,6 +1,6 @@
 <?php
-include './config.php';
-include (ROOT_PATH.'/includes/header.php')
+include '../config.php';
+include (ROOT_PATH . '/includes/header.php')
 ?>
 <title>Profile</title>
 </head>
