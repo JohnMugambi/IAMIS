@@ -8,7 +8,7 @@ include_once(ROOT_PATH . '/includes/header.php');
 <body>
     <main class="" style="height:100vh;padding:50px 0 0 0 ;">
         <div class="container" style="position:relative;">
-            <div class=" row col-md-6 col-md-offset-3 card shadow-lg p-3 mb-5 bg-white rounded" style="margin:auto;">
+            <div class=" row col-md-5 col-md-offset-3 card shadow-lg p-4 mb-5 bg-white rounded" style="margin:auto;">
                 <div class="panel panel-primary" style="padding:20px;">
                     <div class="panel-heading text-right">
                         <a href="<?php echo BASE_URL . "/index.php" ?>" style="color:green; text-align:justify;">
@@ -36,7 +36,7 @@ include_once(ROOT_PATH . '/includes/header.php');
                                 <input type="email" class="form-control" id="email" placeholder="Enter your Email">
                             </div>
                             <div class="form-group">
-                                <label for="department">Department</label>
+                                <label for="department">Institution</label>
                                 <input type="text" class="form-control" id="Department" placeholder="Enter your Department">
                             </div>
                             <div class="form-group">
@@ -48,12 +48,12 @@ include_once(ROOT_PATH . '/includes/header.php');
                                 <input type="password" class="form-control" id="confirmPassword" placeholder="Confirm your Password">
                             </div>
                             <div class="text-right" style="border-radius:20%;">
-                                <input name="signUpBtn" type="submit" value="Sign Up" style="color:white; background-color:green;">
+                                <input name="signUpBtn" type="submit" value="Sign Up" class="btn btn-primary" style="color:white; background-color:green;">
                             </div>
                         </form>
                     </div>
                     <div class="panel panel-footer text-center">
-                        <small>Have an account : <a href="<?php echo BASE_URL . "/login.php" ?>"> Sign In </a> </small>
+                        <small>Have an account : <a href="<?php echo BASE_URL . "/login.php" ?>" > Sign In </a> </small>
                     </div>
                 </div>
             </div>
