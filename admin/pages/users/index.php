@@ -41,7 +41,7 @@ include(ROOT_PATH . '/includes/header.php')
                                         <td>michaelbay@gmail.com</td>
                                         <td>Attachee</td>
                                         <td class="actions">
-                                            <a class="action-button" href="">View Profile</a>
+                                            <a class="action-button" href="<?php echo BASE_URL . "/admin/pages/users/profile.php" ?>">View Profile</a>
                                             <button>
                                                 <i class="fas fa-trash"></i>
                                             </button>
@@ -53,22 +53,24 @@ include(ROOT_PATH . '/includes/header.php')
                                         <td>michaelbay@gmail.com</td>
                                         <td>Attachee</td>
                                         <td class="actions">
-                                            <a class="action-button" href="">View Profile</a>
+                                            <a class="action-button" href="<?php echo BASE_URL . "/admin/pages/users/profile.php" ?>">View Profile</a>
                                             <button>
                                                 <i class="fas fa-trash"></i>
                                             </button>
-                                        </td>                                    </tr>
+                                        </td>
+                                    </tr>
                                     <tr>
                                         <th scope="row">12/05/2020</th>
                                         <td>Michael Bay</td>
                                         <td>michaelbay@gmail.com</td>
                                         <td>Attachee</td>
                                         <td class="actions">
-                                            <a class="action-button" href="">View Profile</a>
+                                            <a class="action-button" href="<?php echo BASE_URL . "/admin/pages/users/profile.php" ?>">View Profile</a>
                                             <button>
                                                 <i class="fas fa-trash"></i>
                                             </button>
-                                        </td>                                    </tr>
+                                        </td>
+                                    </tr>
                                 </tbody>
                             </table>
                         </div>

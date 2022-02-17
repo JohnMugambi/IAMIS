@@ -41,7 +41,7 @@ include(ROOT_PATH . '/includes/header.php')
                                         <td>12/05/2020</td>
                                         <td>50</td>
                                         <td class="actions">
-                                            <a class="action-button" href="">Details</a>
+                                            <a class="action-button" href="<?php echo BASE_URL . "/admin/pages/department/department.php"?>">Details</a>
                                             <button>
                                                 <i class="fas fa-trash"></i>
                                             </button>
@@ -53,7 +53,7 @@ include(ROOT_PATH . '/includes/header.php')
                                         <td>12/05/2020</td>
                                         <td>50</td>
                                         <td class="actions">
-                                            <a class="action-button" href="">Details</a>
+                                            <a class="action-button" href="<?php echo BASE_URL . "/admin/pages/department/department.php"?>">Details</a>
                                             <button>
                                                 <i class="fas fa-trash"></i>
                                             </button>
@@ -64,7 +64,7 @@ include(ROOT_PATH . '/includes/header.php')
                                         <td>12/05/2020</td>
                                         <td>50</td>
                                         <td class="actions">
-                                            <a class="action-button" href="">Details</a>
+                                            <a class="action-button" href="<?php echo BASE_URL . "/admin/pages/department/department.php"?>">Details</a>
                                             <button>
                                                 <i class="fas fa-trash"></i>
                                             </button>

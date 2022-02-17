@@ -36,7 +36,7 @@ include(ROOT_PATH . '/includes/header.php')
                                     </div>
                                 </div>
                                 <div class="send-letters-btn">
-                                    <a href="" class="action-button">Send Letters</a>
+                                    <a href="<?php echo BASE_URL . "/admin/pages/mail/mail.php" ?>" class="action-button">Send Mail</a>
                                 </div>
                             </div>
                             <div class="application-summary">

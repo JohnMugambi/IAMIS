@@ -50,7 +50,7 @@ include(ROOT_PATH . '/includes/header.php')
                                             </button>
                                         </td>
                                     </tr>
-                                    
+
                                 </tbody>
                             </table>
                         </div>
@@ -60,7 +60,7 @@ include(ROOT_PATH . '/includes/header.php')
                             <h5>Completed Programmes</h5>
                         </div>
                         <div class="display-box">
-                            <table class="table">
+                            <table id="myTable" class="table ">
                                 <thead>
                                     <tr>
                                         <th class="custom-border" scope="col">Reference ID</th>
@@ -72,7 +72,7 @@ include(ROOT_PATH . '/includes/header.php')
                                 </thead>
                                 <tbody>
                                     <tr>
-                                    <th scope="row">REF234582</th>
+                                        <th scope="row">REF234582</th>
                                         <td>ICT Directorate Attachment</td>
                                         <td>12/05/2020</td>
                                         <td>Ended</td>
@@ -97,6 +97,11 @@ include(ROOT_PATH . '/includes/header.php')
         </div>
 
     </main>
+    <script>
+        $(document).ready(function() {
+            $('#myTable').dataTable();
+        });
+    </script>
 </body>
 
 </html>

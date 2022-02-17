@@ -23,12 +23,6 @@ include(ROOT_PATH . '/includes/header.php')
                         <div class="page-title">
                             <h2>Adverts</h2>
                         </div>
-                        <div>
-                            <div>
-                            Show 10 entries
-                            </div>
-                            <div>Search for advert</div>
-                        </div>
                     </section>
                     <section class="">
                         <div class="page-title">

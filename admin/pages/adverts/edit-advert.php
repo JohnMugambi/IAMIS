@@ -21,29 +21,28 @@ include(ROOT_PATH . '/includes/header.php')
 
                     <section class="">
                         <div class="page-title">
-                            <h2>View Advert</h2>
+                            <h2>Edit Advert</h2>
                         </div>
                         <div class="advert-details">
-                            <div style="margin-bottom: 30px;">
+                            <div>
                                 <div style="display: flex; flex-direction:row; align-items:center; justify-content:space-between;">
                                     <h5>Title : </h5>
-                                    <a  href="<?php echo BASE_URL . "/admin/pages/adverts/edit-advert.php" ?>" class="action-button">Edit Advert</a>
                                 </div>
                                 <div style="display: flex; flex-direction:row; align-items:center; margin:0 0 20px 20px;">
                                     <img src="<?php echo BASE_URL . "/assets/static/logo.png" ?>" alt="Logo" style="height: 40px; width:40px; margin-right:20px;">
-                                    <input type="text" name="" id="" value="ICT Directorate Attachment" style="font-size:1.1rem;" readonly>
+                                    <input type="text" name="" id="" value="ICT Directorate Attachment" style="font-size:1.1rem; box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px; background-color:white;">
                                 </div>
                             </div>
-                            <div style="margin-bottom: 20px;">
-                                <h5>Attachment Details: </h5>
-                                <div style="display:flex; flex-direction:row; padding: 10px 20px 0 20px">
+                            <div style="margin-bottom: 10px;">
+                                <h5>Post Details: </h5>
+                                <div style="display:flex; flex-direction:row; padding: 0 20px">
                                     <div style="flex: 1;">
-                                        <p>Start Date: <span><input type="date" value="12/12/2020" readonly></span></p>
-                                        <p>End Date: <span><input type="date" value="12/12/2020" readonly></span></p>
+                                        <p>Start Date: <span><input type="date" value="12/12/2020" style="box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;background-color:white;"></span></p>
+                                        <p>End Date: <span><input type="date" value="12/12/2020" style="box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;background-color:white;"></span></p>
                                     </div>
                                     <div style="flex: 1;">
-                                        <p>Application Deadline : <span><input type="date" value="12/12/2020" readonly></span></p>
-                                        <p>Number of Vacancies: <span><input type="number" value="50" readonly></span></p>
+                                        <p>Application Deadline : <span><input type="date" value="12/12/2020" style="box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;background-color:white;"></span></p>
+                                        <p>Number of Vacancies: <span><input type="number" value="50" style="box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;background-color:white;"></span></p>
                                     </div>
                                 </div>
                             </div>
@@ -51,6 +50,7 @@ include(ROOT_PATH . '/includes/header.php')
                             <div>
                                 <h5>Description : </h5>
                                 <div class="advert-view">
+                                    <textarea name="" id="">
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                         Provident hic facere ad? Eius beatae nisi voluptatibus voluptates deserunt, pariatur consectetur
                                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio illo unde aut nam atque.
@@ -93,11 +93,11 @@ include(ROOT_PATH . '/includes/header.php')
 
                                     Please apply in English saving your CV and Motivation letter as a single document indicating the area you are interested in and the location. To apply, please visit our website at https://kenya..net/. The deadline for receiving applications is 15th February 2022. Only shortlisted applicants will be considered for interview.<br>
                                 
+                                    </textarea>
                                 </div>
                             </div>
                             <div style="display:flex; flex-direction:row; justify-content:flex-end; margin: 20px 0; padding-right:20px;">
-                                <button class="action-button btn-danger" style="border: none;">Reject</button>
-                                <button class="action-button" style="border: none; margin-left:20px;">Approve</button>
+                                <button class="action-button" style="border: none; margin-left:20px;">Save</button>
                             </div>
                         </div>
                     </section>

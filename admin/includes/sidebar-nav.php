@@ -13,7 +13,7 @@
     </div>
 
     <ul class="list-unstyled components">
-        <p>Menu</p>
+        <p>MENU</p>
         <li>
             <a href="<?php echo BASE_URL . "/admin/index.php" ?>">
                 <span class="icon"><i class="fas fa-home" style="width: 10%;"></i></span>
@@ -23,37 +23,37 @@
         <p>ADMIN DUTY</p>
         <li>
             <a href="<?php echo BASE_URL . "/admin/pages/adverts/index.php" ?>">
-                <span class="icon"><i class="fas fa-edit" style="width: 10%;"></i></span>
+                <span class="icon"><i class="fas fa-bullseye" style="width: 10%;"></i></span>
                 <span>Adverts</span>
             </a>
         </li>
         <li>
             <a href="<?php echo BASE_URL . "/admin/pages/users/index.php" ?>">
-                <span class="icon"><i class="fas fa-bell" style="width: 10%;"></i></span>
+                <span class="icon"><i class="fas fa-eye" style="width: 10%;"></i></span>
                 <span>View Users</span>
             </a>
         </li>
         <li>
             <a href="<?php echo BASE_URL . "/admin/pages/department/index.php" ?>">
-                <span class="icon"><i class="fas fa-bookmark" style="width: 10%;"></i></span>
+                <span class="icon"><i class="fas fa-users-cog" style="width: 10%;"></i></span>
                 <span>View Departments</span></a>
         </li>
         <li>
             <a href="<?php echo BASE_URL . "/admin/pages/programmes/index.php" ?>">
-                <span class="icon"><i class="fas fa-address-book" style="width: 10%;"></i></span>
+                <span class="icon"><i class="fas fa-link" style="width: 10%;"></i></span>
                 <span>Attachment Programmes</span></a>
         </li>
         <p>MAIL</p>
         <li>
             <a href="<?php echo BASE_URL . "/admin/pages/mail/index.php" ?>">
-                <span class="icon"><i class="fas fa-address-book" style="width: 10%;"></i></span>
+                <span class="icon"><i class="fas fa-paper-plane" style="width: 10%;"></i></span>
                 <span>Mail Applicants</span></a>
         </li>
        
         <p>LETTERS</p>
         <li>
             <a href="<?php echo BASE_URL . "/admin/pages/letters/index.php" ?>">
-                <span class="icon"><i class="fas fa-address-book" style="width: 10%;"></i></span>
+                <span class="icon"><i class="fas fa-sticky-note" style="width: 10%;"></i></span>
                 <span>View Letters</span></a>
         </li>
     </ul>
