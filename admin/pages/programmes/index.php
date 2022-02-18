@@ -44,7 +44,7 @@ include(ROOT_PATH . '/includes/header.php')
                                         <td>12/05/2020</td>
                                         <td>Ongoing</td>
                                         <td class="actions">
-                                            <a class="action-button" href="">View Programme</a>
+                                            <a class="action-button" href="<?php  echo BASE_URL . "/admin/pages/programmes/programme.php"?>">View Programme</a>
                                             <button>
                                                 <i class="fas fa-trash"></i>
                                             </button>
@@ -77,7 +77,7 @@ include(ROOT_PATH . '/includes/header.php')
                                         <td>12/05/2020</td>
                                         <td>Ended</td>
                                         <td class="actions">
-                                            <a class="action-button" href="">View Programme</a>
+                                            <a class="action-button" href="<?php  echo BASE_URL . "/admin/pages/programmes/programme.php"?>">View Programme</a>
                                             <button>
                                                 <i class="fas fa-trash"></i>
                                             </button>

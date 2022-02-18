@@ -30,13 +30,13 @@
         <li>
             <a href="<?php echo BASE_URL . "/admin/pages/users/index.php" ?>">
                 <span class="icon"><i class="fas fa-eye" style="width: 10%;"></i></span>
-                <span>View Users</span>
+                <span> Users</span>
             </a>
         </li>
         <li>
             <a href="<?php echo BASE_URL . "/admin/pages/department/index.php" ?>">
                 <span class="icon"><i class="fas fa-users-cog" style="width: 10%;"></i></span>
-                <span>View Departments</span></a>
+                <span> Departments</span></a>
         </li>
         <li>
             <a href="<?php echo BASE_URL . "/admin/pages/programmes/index.php" ?>">

@@ -2,7 +2,7 @@
 include '../../config.php';
 include(ROOT_PATH . '/includes/header.php')
 ?>
-<title>Programme</title>
+<title>Programmes</title>
 </head>
 
 <body>
@@ -10,7 +10,7 @@ include(ROOT_PATH . '/includes/header.php')
         <div class="wrapper">
             <!-- Sidebar  -->
             <?php
-            include(ROOT_PATH . '/includes/sidebar-department.php')
+            include(ROOT_PATH . '/includes/sidebar-nav.php')
             ?>
             <!-- Page Content  -->
             <div id="content">
@@ -18,10 +18,11 @@ include(ROOT_PATH . '/includes/header.php')
                 include(ROOT_PATH . '/includes/navbar.php')
                 ?>
                 <div id="main-content">
-                    <div class="page-title">
-                        <h3>Programme</h3>
-                    </div>
-                    <section>
+
+                    <section class="notifications-section">
+                        <div class="page-title">
+                            <h2>Attachment Programme</h2>
+                        </div>
                         <div class="mt-3">
                             <img src="<?php echo BASE_URL . "/assets/static/logo.png" ?>" alt="JKUAT Logo" style="width: 30px" />
                             <span>ICT Directorate Attachment Opportunity</span>
@@ -47,7 +48,9 @@ include(ROOT_PATH . '/includes/header.php')
                                 </div>
                             </div>
                         </div>
+
                     </section>
+
                 </div>
                 <?php
                 include(ROOT_PATH . '/includes/footer.php')
@@ -57,6 +60,11 @@ include(ROOT_PATH . '/includes/header.php')
         </div>
 
     </main>
+    <script>
+        $(document).ready(function() {
+            $('#myTable').dataTable();
+        });
+    </script>
 </body>
 
 </html>
