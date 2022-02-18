@@ -76,19 +76,19 @@ include_once (ROOT_PATH.'/includes/header.php');
                             <h4>Work History</h4>
                                 <div class="row">
                                     <div class="mb-3 col">
-                                    <label for="jobTitle" class="form-label">Job Title</label>
-                                    <input type="text" class="form-control" id="jobTitle" required>
-                                </div>
+                                        <label for="jobTitle" class="form-label">Job Title</label>
+                                        <input type="text" class="form-control" id="jobTitle" required>
+                                    </div>
 
-                                <div class="mb-3 col">
-                                    <label for="startDate" class="form-label">Start Date</label>
-                                    <input type="date" class="form-control" id="startDate" required>
-                                </div>
+                                    <div class="mb-3 col">
+                                        <label for="startDate" class="form-label">Start Date</label>
+                                        <input type="date" class="form-control" id="startDate" required>
+                                    </div>
 
-                                <div class="mb-3 col">
-                                    <label for="endDate" class="form-label">EndDate</label>
-                                    <input type="date" class="form-control" id="endDate" required>
-                                </div>
+                                    <div class="mb-3 col">
+                                        <label for="endDate" class="form-label">EndDate</label>
+                                        <input type="date" class="form-control" id="endDate" required>
+                                    </div>
                                 </div>
                             </div>
 
