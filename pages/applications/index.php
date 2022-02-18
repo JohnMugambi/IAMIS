@@ -30,8 +30,12 @@ include_once(ROOT_PATH . '/includes/header.php');
                                     <div class="container align-middle mx-3">
                                         <div class="row">ICT Directorate : Bsc Computer Technology</div>
                                         <div class="row">
-                                            <div class="col text-left"><p>JKUAT</p></div>
-                                            <div class="col text-right"><p>Juja</p></div>
+                                            <div class="col text-left">
+                                                <p>JKUAT</p>
+                                            </div>
+                                            <div class="col text-right">
+                                                <p>Juja</p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -47,8 +51,12 @@ include_once(ROOT_PATH . '/includes/header.php');
                                     <div class="container align-middle mx-3">
                                         <div class="row">ICT Directorate : Bsc Computer Technology</div>
                                         <div class="row">
-                                            <div class="col text-left"><p>JKUAT</p></div>
-                                            <div class="col text-right"><p>Juja</p></div>
+                                            <div class="col text-left">
+                                                <p>JKUAT</p>
+                                            </div>
+                                            <div class="col text-right">
+                                                <p>Juja</p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -57,6 +65,24 @@ include_once(ROOT_PATH . '/includes/header.php');
                                     Status : <span class="text-success">Approved</span>
                                 </div>
                             </div>
+                            <!-- Styling the notifications  -->
+                            <!-- <div class="display-card">
+                                <div class="job-item">
+                                    <div class="organization-details">
+                                        <div class="organization-logo">
+                                            <img src="<?php echo BASE_URL . "/assets/static/logo.png" ?>" alt="logo">
+                                        </div>
+                                        <div>
+                                            <p>ICT Diretorate</p>
+                                            <p class="sm-text"><span>JKUAT</span><span>Juja</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="post-action">
+                                        <button type="button" data-toggle="modal" data-target="#myModal">View</button>
+                                        <p class="sm-text">01 - jan-2020</p>
+                                    </div>
+                                </div>
+                            </div> -->
                         </div>
                     </section>
                 </div>

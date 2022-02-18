@@ -11,18 +11,20 @@ include "./controllers/application.php";
     <main>
         <div id="main-page-nav">
             <nav class="navbar">
-                <div class="logo-brand">
-                    <div class="logo">
-                        <a href="">
+                <a href="<?php echo BASE_URL . "/index.php" ?>">
+                    <div class="logo-brand">
+                        <div class="logo">
+
                             <img src="<?php echo BASE_URL . "/assets/static/logo.png" ?>" alt="logo">
-                        </a>
-                    </div>
-                    <span>
-                        <!-- JOMO KENYATTA UNIVERSITY OF AGRICULTURE AND TECHNOLOGY
+                        </div>
+                        <span>
+                            <!-- JOMO KENYATTA UNIVERSITY OF AGRICULTURE AND TECHNOLOGY
                         <br /> -->
-                        <h5>JKUAT ATTACHMENT PORTAL</h5>
-                    </span>
-                </div>
+                            <h5 style="color: white; text-decoration:none;">JKUAT ATTACHMENT PORTAL</h5>
+                        </span>
+                    </div>
+                </a>
+
                 <div class="nav-buttons">
                     <a href="<?php echo BASE_URL . "/register.php" ?>">Register</a>
                     <a href="<?php echo BASE_URL . "/login.php" ?>" class="login-button">Sign In</a>
@@ -55,16 +57,19 @@ include "./controllers/application.php";
                                     </div>
                                 </option>
                                 <option value="1">
-                                    Option 1
+                                    COETEC
                                 </option>
                                 <option value="2">
-                                    Option 2
+                                    COHES
                                 </option>
                                 <option value="3">
-                                    Option 3
+                                    COANRE
                                 </option>
                                 <option value="4">
-                                    Option 4
+                                    COPAS
+                                </option>
+                                <option value="4">
+                                    COHRED
                                 </option>
                             </select>
 
@@ -182,10 +187,10 @@ include "./controllers/application.php";
 
                                                 Please apply in English saving your CV and Motivation letter as a single document indicating the area you are interested in and the location. To apply, please visit our website at https://kenya..net/. The deadline for receiving applications is 15th February 2022. Only shortlisted applicants will be considered for interview.<br>
                                             </div>
-                                            
+
                                             <div class="mod-apply">
                                                 <form method="POST" action="application.php">
-                                                    <a href="<?php echo BASE_URL . "/pages/applications/applications.php" ?>" class="btn btn-primary" style="background:#0d7000;" >Apply</a>
+                                                    <a href="<?php echo BASE_URL . "/pages/applications/applications.php" ?>" class="btn btn-primary" style="background:#0d7000;">Apply</a>
                                                 </form>
                                             </div>
                                         </div>
