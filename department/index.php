@@ -1,8 +1,8 @@
 <?php
-include './config.php';
-include (ROOT_PATH.'/includes/header.php')
+include '../config.php';
+include (ROOT_PATH . '/includes/header.php')
 ?>
-<title>Profile</title>
+<title>Dashboard</title>
 </head>
 
 <body>
@@ -10,7 +10,7 @@ include (ROOT_PATH.'/includes/header.php')
         <div class="wrapper">
             <!-- Sidebar  -->
             <?php
-            include (ROOT_PATH.'/includes/sidebar-nav.php')
+            include (ROOT_PATH.'/includes/sidebar-department.php')
             ?>
             <!-- Page Content  -->
             <div id="content">
@@ -19,7 +19,37 @@ include (ROOT_PATH.'/includes/header.php')
                 ?>
                 <div id="main-content">
                     <section>
-                        Home main page
+                        <div class="container">
+                            <div class="bg-light p-4">
+                                <h5>Welcome back to your</h5>
+                                <h3 class="fw-bolder">Dashboard</h3>
+
+                                <a href="#" class="btn btn-primary mt-4">Post New Advert</a>
+                            </div>
+
+                            <div class="mt-4">
+                            <h3>Statistics</h3>
+                                <div class="d-flex">
+                                    <div class="bg-success w-75 rounded">
+                                        Graph
+                                    </div>
+
+                                    <div class="d-flex flex-column ml-4">
+                                        <div class="bg-primary p-2 rounded text-white">
+                                            <h5>Completed Attachments</h5>
+                                            <h2 class="container">5</h2>
+                                        </div>
+
+                                        <div class="bg-danger p-2 mt-2 rounded text-white">
+                                            <h5>Ongoing Attachments</h5>
+                                            <div class="container">
+                                            <h2>1</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </section>
                 </div>
                 <?php
