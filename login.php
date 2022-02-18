@@ -8,7 +8,7 @@ include_once(ROOT_PATH . '/includes/header.php');
 <body>
     <main class="" style="height:100vh;padding:50px 0 0 0 ;">
         <div class="container" style="position:relative;">
-            <div class="row col-md-6 col-md-offset-3 card shadow-lg p-3 mb-5 bg-white rounded" style="margin:auto;">
+            <div class="row col-md-4 col-md-offset-3 card shadow-lg p-4 mb-5 bg-white rounded" style="margin:auto;">
                 <div class="panel panel-primary">
                     <div class="panel-heading text-right">
                         <a href="<?php echo BASE_URL . "/index.php" ?>" style="color:green; text-align:justify;">
@@ -33,7 +33,7 @@ include_once(ROOT_PATH . '/includes/header.php');
                                     <small><a href="#"> Forgot your password?</a></small>
                                 </div>
                                 <div class="text-right">
-                                    <input name="signinBtn" type="submit" value="Login" style="color:white; background-color:green;" class="panel text-right">
+                                    <input name="signinBtn" type="submit" value="Login" class="btn btn-primary" style="color:white; background-color:green;" class="panel text-right">
                                 </div>
 
                     </div>
