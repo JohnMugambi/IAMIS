@@ -61,10 +61,19 @@ include_once(ROOT_PATH . '/includes/header.php');
                                     </div>
                                 </div>
 
-                                <div>
+                                <div style="display: flex; flex-direction:column;">
+                                    <div>
+                                        <a class="btn btn-primary" href="<?php echo BASE_URL . "/pages/applications/letter.php" ?>">View Letter</a>
+                                    </div>
+                                    <div>
                                     Status : <span class="text-success">Approved</span>
+                                    </div>
                                 </div>
+                                
                             </div>
+
+                        
+                            
                             <!-- Styling the notifications  -->
                             <!-- <div class="display-card">
                                 <div class="job-item">

@@ -3,6 +3,12 @@ include '../config.php';
 include (ROOT_PATH . '/includes/header.php')
 ?>
 <title>Dashboard</title>
+<script src="<?php echo BASE_URL ?>/department/js/script.js" defer></script>
+<!-- Chartjs -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
+    </script>
+
+
 </head>
 
 <body>
@@ -18,35 +24,39 @@ include (ROOT_PATH . '/includes/header.php')
                 include (ROOT_PATH.'/includes/navbar.php')
                 ?>
                 <div id="main-content">
-                    <section>
-                        <div class="container">
-                            <div class="bg-light p-4">
-                                <h5>Welcome back to your</h5>
-                                <h3 class="fw-bolder">Dashboard</h3>
-
-                                <a href="#" class="btn btn-primary mt-4">Post New Advert</a>
+                <section class="welcome-banner">
+                        <div>
+                            <p>Welcome back to your</p>
+                            <h2>Dashboard</h2>
+                        </div>
+                    </section>
+                    <section class="notifications-section" style="margin-top:20px;">
+                        <div class="page-title">
+                            <h5>Notifications</h5>
+                        </div>
+                        <div class="notifications-display ">
+                            <p>No new notifications</p>
+                        </div>
+                    </section>
+                    <section class="statistics-section">
+                        <div class="page-title">
+                            <h5>Statistics</h5>
+                        </div>
+                        <div class="statistics-details">
+                            <div class="graph-summary">
+                                <p>Applications History</p>
+                                <div class="chart-wrapper px-0" style="height:30vh;" height="70">
+                                    <canvas id="widgetChart1"></canvas>
+                                </div>
                             </div>
-
-                            <div class="mt-4">
-                            <h3>Statistics</h3>
-                                <div class="d-flex">
-                                    <div class="bg-success w-75 rounded">
-                                        Graph
-                                    </div>
-
-                                    <div class="d-flex flex-column ml-4">
-                                        <div class="bg-primary p-2 rounded text-white">
-                                            <h5>Completed Attachments</h5>
-                                            <h2 class="container">5</h2>
-                                        </div>
-
-                                        <div class="bg-danger p-2 mt-2 rounded text-white">
-                                            <h5>Ongoing Attachments</h5>
-                                            <div class="container">
-                                            <h2>1</h2>
-                                            </div>
-                                        </div>
-                                    </div>
+                            <div class="summary-cards">
+                                <div class="pending-approvals">
+                                    <p class="summary-card-title">Pending approvals</p>
+                                    <p class="summary-number">5</p>
+                                </div>
+                                <div class="ongoing">
+                                    <p class="summary-card-title">Ongoing Attachments</p>
+                                    <p class="summary-number">1</p>
                                 </div>
                             </div>
                         </div>

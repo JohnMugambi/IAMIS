@@ -51,5 +51,10 @@
                 <span class="icon"><i class="fas fa-address-book" style="width: 10%;"></i></span>
                 <span>Logbook</span></a>
         </li>
+        <li>
+            <a href="<?php echo BASE_URL . "/pages/evaluation/index.php" ?>">
+                <span class="icon"><i class="fab fa-wpforms" style="width: 10%;"></i></span>
+                <span>Evaluation</span></a>
+        </li>
     </ul>
 </nav>
